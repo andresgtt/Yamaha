@@ -1,3 +1,3 @@
 # Yamaha
 
-mi primera pagina web del curso de desarrollador full stack
+Mi primera pagina web
