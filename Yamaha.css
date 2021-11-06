@@ -1,0 +1,65 @@
+body {
+    background-color: #ffffff
+}
+
+h2 {
+    color: rgb(55, 57, 133);
+}
+
+/* COLORES LISTA */
+
+body header nav div ul li:nth-child(odd) {
+    color:rgb(55, 57, 133)
+}
+
+body header nav div ul li:nth-child(odd) a {
+    color: rgb(55, 57, 133);
+}
+
+body header nav div ul li:nth-child(even) a {
+    color: orange
+}
+
+body header nav div ul li:nth-child(even) {
+    color: orange;
+}
+
+/* COLORES FOOTER */
+
+body footer {
+    color: rgb(55, 57, 133);
+}
+
+body footer a {
+    color:rgb(55, 57, 133)
+}
+
+:root {
+    --hover-color: orange;
+}
+
+footer ul li a:hover {
+    color: var(--hover-color);
+}
+
+
+
+
+
+/* FUENTES DE PAGINA  */
+
+body header nav div ul {
+    font-family: 'Crimson Text', serif;
+}
+
+h2 {
+    font-family: 'Staatliches', cursive;
+}
+
+p {
+    font-family: 'Monda', sans-serif;
+}
+
+body footer {
+    font-family: 'Alata', sans-serif;
+}
